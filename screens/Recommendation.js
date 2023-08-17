@@ -54,11 +54,7 @@ export default class PopularScreen extends Component {
           source={require("../assets/bg.png")}
           style={{ flex: 1 }}
         >
-          <FlatList
-            data={data}
-            keyExtractor={this.keyExtractor}
-            renderItem={this.renderItems}
-          />
+         /*Add flatlist component*/
         </ImageBackground>
       </View>
     );
